@@ -18,11 +18,11 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
@@ -168,6 +168,7 @@
 <text x="2.54" y="6.35" size="0.8128" layer="25" font="vector" ratio="15" rot="SR270" align="bottom-center">#4</text>
 <text x="2.54" y="3.81" size="0.8128" layer="25" font="vector" ratio="15" rot="SR270" align="bottom-center">#3</text>
 <text x="2.54" y="1.27" size="0.8128" layer="25" font="vector" ratio="15" rot="SR270" align="bottom-center">RST</text>
+<text x="12.7" y="19.05" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR270">Trinket Battery Shield v1.0</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
