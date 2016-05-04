@@ -9,10 +9,10 @@ This is an add-on circuit board for the Adafruit Trinkets.  This board adds a ba
 The charger has two indicator LEDs, one to indicate the battery is currently charging from the micro-usb port on the Trinket, and the other to indicate when the battery has fully charged.
 
 ## WS2812B LED
-There is a pad for a WS2812B RGB LED.  This LED is connected to data pin #0.  The user can leave this LED off if only battery charging capability is required.
+There is a pad for a WS2812B RGB LED.  This LED is connected to data pin #0.  The user can leave this LED unpopulated if only battery charging capability is required.
 
 ## Battery Power
-Note that the Adafruit Trinkets come with circuits for using the battery power and automatically switching between USB power and battery power as needed.  If the use only wishes to have battery power and not the charging capability, the user only needs to populate the JST 2-Pin connector on the back of the Trinket.
+Note that the Adafruit Trinkets come with circuits for using the battery power and automatically switching between USB power and battery power as needed.  If the user only wishes to have battery power and not the charging capability, the user only needs to populate the JST 2-Pin connector on the back of the Trinket.
 
 ## BOM
 C1, C2 = 0805 series SMT capcitors 10uF and at least 10V to be safe.
@@ -25,7 +25,7 @@ J1 = JST-2_SMD - Available via Adafruit, Sparkfun, or Mouser.
 
 LEDs = 0805 LEDs. Not necessary for circuit to work.  Recommended LEDS:
 
-* SML-LX0805SOC-TR (Orange) Charging LED with R1 = 390Ohm
-* SML-LX0805SUGC-TR (Green) Charged or Done LED with R2 = 270Ohm
+* SML-LX0805SOC-TR (Orange) Charging LED with R1 = 390Ohm minimum
+* SML-LX0805SUGC-TR (Green) Charged or Done LED with R2 = 270Ohm minimum
 
 WS2812B LED - Not necessary, but if the user chooses to add, LED must be 5050 size.
