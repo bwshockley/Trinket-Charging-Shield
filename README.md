@@ -5,7 +5,7 @@ Adafruit Trinket Shield for Battery Charging and RGB status LED.
 ![Trinket Battery Charging Shield Back](https://raw.githubusercontent.com/bwshockley/Trinket-Battery-Shield/master/trinket_battery_charging_shield_2.png)
 
 ## About
-This is an add-on circuit board for the Adafruit Trinkets.  This board adds a battery connector with an MCP73831 lipoly/NMhi battery charger set at 100mAH charging.
+This is an add-on circuit board for the [Adafruit Trinkets](https://www.adafruit.com/?q=trinket&).  This board adds a battery connector with an MCP73831 lipoly/NMhi battery charger set at 100mAH charging.
 The charger has two indicator LEDs, one to indicate the battery is currently charging from the micro-usb port on the Trinket, and the other to indicate when the battery has fully charged.
 
 ## WS2812B LED
