@@ -8,8 +8,12 @@ Adafruit Trinket Shield for Battery Charging and RGB status LED.
 This is an add-on circuit board for the [Adafruit Trinkets](https://www.adafruit.com/?q=trinket&).  This board adds a battery connector with an MCP73831 Lithium-Ion/Lithium-Polymer battery charger set at 100mAH charging.
 The charger has two indicator LEDs, one to indicate the battery is currently charging from the micro-usb port on the Trinket, and the other to indicate when the battery has fully charged.
 
+Version B of the board has the connections reversed such that this board and the Trinket can back connected "back-to-back" so that the reset button and from LEDs (On and #1) can be accessed.  BOM is identical.
+
 ## Boards
 PCBs can be ordered direct [through OSHPARK.com](https://oshpark.com/shared_projects/fXX7IH66).
+
+[Version B here.](https://oshpark.com/shared_projects/0WDgFbOp)
 
 ## WS2812B LED
 There is a pad for a WS2812B RGB LED.  This LED is connected to data pin #0.  The user can leave this LED unpopulated if only battery charging capability is required.
